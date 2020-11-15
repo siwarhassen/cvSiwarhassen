@@ -1,0 +1,511 @@
+body
+{  width: 1350px;
+    background-image:url("image/arriere.jpg");
+
+}
+
+
+/* header */
+header .me
+{   margin-top: -42px;
+    background-image:url("image/info.jpg");
+    height: 300px;
+}
+header .me h1
+{
+    color: white;
+    font-size: 60px;
+    padding-left: 500px;
+    padding-top: 130px;
+    font-family: "Tw Cen MT";
+    font-style: italic;
+}
+header .me p
+{
+    color: white;
+    padding-left: 570px;
+   margin-top: -40px;
+    font-family: Calibri;
+}
+
+header .nav
+{  margin-top: -20px;
+    background-color: #27223e;
+
+    height: 50px;
+
+}
+header .nav ul{
+    padding-top: 5px;
+}
+header .nav li{
+    display: inline;
+
+    padding: 80px;
+
+}
+header a{
+    color: white;
+    font-size: 27px;
+    font-style: oblique;
+   font-family: Aldhabi;
+    text-decoration:none;
+
+}
+header a:hover{
+    color: aliceblue;
+}
+
+
+
+/*Description*/
+
+.photoprofile{
+   height: 400px;
+margin-top: 60px;
+    margin-left: 270px;
+}
+.description
+{
+    margin-left: 600px;
+    margin-top: -450px;
+}
+.description h3
+{
+    color: #27223e;
+    font-family: "Bell MT";
+    font-size: 40px;
+}
+hr
+{
+    color: #27223e;
+    background-color: #27223e;
+    text-align:left;
+    width: 90px;
+    height: 2px;
+    margin-left: 3px;
+    margin-top: -32px;
+}
+.description p
+{
+    color: #27223e;
+font-family: "Bodoni MT";
+    font-size: 20px;
+    width: 500px;
+
+}
+.description a
+{
+    color: #27223e;
+    border: 2px outset  #27223e;
+    font-family: "Bodoni MT";
+    text-decoration:none;
+    font-size: 20px;
+}
+.description a:hover
+{
+    color:white;
+
+}
+
+
+/*  Mes competences*/
+.competences{
+    background-color:                  #dcdcdc;
+    margin-top: 190px;
+    height: 500px;
+
+}
+.competences .prog{
+    width: 350px;
+    margin-left: 100px;
+    background-color: white;
+    height: 370px;
+}
+.competences .prog img
+{    width: 350px;
+    height: 200px;
+}
+
+.competences .dev{
+    width: 350px;
+    margin-left: 500px;
+    background-color: white;
+    height: 370px;
+    margin-top: -370px;
+}
+.competences .dev img
+{    width: 350px;
+    height: 200px;
+}
+
+.competences .base{
+    width: 350px;
+    margin-left: 900px;
+    background-color: white;
+    height: 370px;
+    margin-top: -370px;
+}
+.competences .base img
+{    width: 350px;
+    height: 200px;
+}
+
+.competences h1
+{
+    color: #27223e;
+    text-align: center;
+}
+
+
+/* Projets academiques*/
+.projets {
+    background-color: white;
+    height: 800px;
+    width: 700px;
+    margin-left: 290px;
+}
+
+.projets .pi
+{   margin-top: 20px;
+   background-color:#e1c9a9;
+    height: 250px;
+}
+.projets .pi img
+{
+    height: 251px;
+}
+.projets .pi h3
+{
+    margin-left: 350px;
+    margin-top: -240px;
+    color: #27223e;
+    font-family: Corbel;
+    font-size: 25px;
+}
+.projets .pi p
+{   color: white;
+    margin-left: 350px;
+    margin-top: 40px;
+
+font-family: Corbel;
+
+}
+
+
+/*about me*/
+
+.about
+{
+    margin-top: 60px;
+}
+.about h1
+{
+    color: #27223e;
+    margin-left: 160px;
+}
+.about hr
+{
+    color: #27223e;
+    margin-top: -10px;
+    margin-left: 160px;
+}
+.about .aboume
+{
+    width: 500px;
+    margin-left: 650px;
+    margin-top: -300px;
+}
+.about h3
+{
+    margin-left: 160px;
+    font-family: Century;
+    color: #e1c9a9;
+    font-weight: bold;
+}
+
+.about p{
+    color: #27223e;
+    width: 400px;
+    margin-left: 160px;
+       font-family: Arial;
+    font-weight: bold;
+}
+
+.about .birthday img
+{
+    width: 20px;
+
+}
+
+.about .birthday
+{ margin-left: 160px;
+
+}
+.about .birthday h5
+{ margin-left: 30px;
+    margin-top: -30px;
+    font-size: 21px;
+    color: #6b1c1c;
+    font-family: Calibri;
+
+}
+.about .birthday p
+{ margin-left: 200px;
+    margin-top: -55px;
+    font-size: 15px;
+
+}
+
+.formation
+{
+    background-color: #e1c9a9;
+    height: 130px;
+}
+.formation h1
+{
+    font-family: Century;
+    color: #27223e;
+    text-align: center;
+}
+.formation hr
+{
+    margin-left: 590px;
+    margin-top: -10px;
+    color: #27223e;
+    text-align: center;
+}
+.formation .esprit
+{
+    margin-left: 150px;
+    color: #27223e;
+}
+.formation .esprit p
+{   margin-top: -10px;
+    font-weight: bold;
+}
+.formation .esprit h4
+{   color: #6b1c1c;
+}
+
+.formation .bac
+{
+    margin-left: 800px;
+    margin-top: -70px;
+    color: #27223e;
+}
+.formation .bac p
+{   margin-top: -10px;
+    font-weight: bold;
+}
+.formation .bac h4
+{   color: #6b1c1c;
+}
+
+.centreinter
+{
+
+    margin-top: -22px;
+    height: 250px;
+}
+.centreinter h1
+{ margin-left: 160px;
+    color: #27223e;
+    margin-top: 50px;
+
+}
+
+.centreinter hr
+{
+    color: #27223e;
+   margin-top: -10px;
+    margin-left: 160px;
+}
+
+
+.centreinter .voyage
+{
+    width: 500px;
+    margin-left: 650px;
+    margin-top: -130px;
+
+}
+
+.centreinter p
+{
+    width: 500px;
+    margin-left: 150px;
+    color: #27223e;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+
+.certif
+{
+    margin-top: 50px;
+}
+.certif h1
+{
+    color: #27223e;
+    text-align: center;
+}
+.certif hr {
+    color: #27223e;
+    margin-left: 630px;
+    margin-top: -20px;
+
+}
+.certif .partie1
+{
+    margin-left: 160px;
+    margin-top: 60px;
+}
+.certif .partie1 img
+{
+    width: 460px;
+}
+.certif .partie1 a p
+{
+   color: #27223e;
+    font-family: Aldhabi;
+    font-size: 22px;
+}
+.certif .partie1 a p:hover
+{
+    color: #e1c9a9;
+    font-family: Aldhabi;
+    font-size: 22px;
+}
+
+
+.certif .partie2
+{
+    margin-left: 700px;
+    margin-top: -923px;
+}
+.certif .partie2 img
+{
+    width: 460px;
+}
+.certif .partie2 a p
+{
+    color: #27223e;
+    font-family: Aldhabi;
+    font-size: 22px;
+}
+.certif .partie2 a p:hover
+{
+   color: #e1c9a9;
+    font-family: Aldhabi;
+    font-size: 22px;
+}
+.contact h1
+{
+    color: #27223e;
+    margin-left: 160px;
+}
+.contact hr
+{
+    color: #27223e;
+    margin-top: -10px;
+    margin-left: 160px;
+}
+.contact .image
+{
+     margin-left: 160px;
+}
+.fb
+{
+    padding-top: 10px;
+    width: 30px;
+}
+.linkd
+{
+
+    width: 30px;
+  margin-top: 10px;
+}
+form
+
+{  margin-left: 600px;
+    margin-top: -200px;
+
+}
+input[type=text],input[type=email],textarea {
+    width: 400px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: #6b1c1c;
+    color: white;
+}
+input[type=submit] {
+   background-color: #e1c9a9;
+   color: #27223e;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+   margin-left: 340px;
+}
+
+input[type=submit]:hover {
+    background-color: #27223e;
+    color: white;
+}
+
+.cont
+{
+    margin-left: 160px;
+}
+.cont h3
+{
+   color: #6b1c1c;
+}
+footer
+{   color: white;
+   background-color: #27223e;
+
+    height: 50px;
+}
+footer p
+{ margin-left: 200px;
+font-family: Calibri;
+}
+footer .tel
+{
+    width: 30px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+footer h5
+{
+    margin-top: -35px;
+    margin-left: 190px;
+}
+footer .telephone p{
+    margin-top: -20px;
+    margin-left: 190px;
+    font-size: 10px;
+}
+
+footer .email img
+{
+    width: 30px;
+    margin-left: 450px;
+    margin-top: -190px;
+}
+ footer .email h5
+ {
+     margin-top: -60px;
+     margin-left: 500px;
+ }
+footer .email p
+{
+    margin-top: -25px;
+    margin-left: 500px;
+    font-size: 10px;
+}
