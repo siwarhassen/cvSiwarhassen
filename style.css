@@ -54,8 +54,8 @@ header a{
 }
 header a:hover{
     color: aliceblue;
-}
 
+}
 
 
 /*Description*/
@@ -64,6 +64,11 @@ header a:hover{
    height: 400px;
 margin-top: 60px;
     margin-left: 270px;
+}
+.photoprofile:hover
+{
+    -webkit-transform:scale(2); 
+
 }
 .description
 {
