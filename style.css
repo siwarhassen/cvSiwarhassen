@@ -37,11 +37,16 @@ header .nav
 }
 header .nav ul{
     padding-top: 5px;
+    display: flex;
+    justify-content:center;
+    justify-content:space-around;
+    align-content: center;
+    flex-direction:row;
 }
 header .nav li{
     display: inline;
 
-    padding: 80px;
+
 
 }
 header a{
@@ -67,7 +72,7 @@ margin-top: 60px;
 }
 .photoprofile:hover
 {
-    -webkit-transform:scale(2); 
+    -webkit-transform:scale(2);
 
 }
 .description
@@ -115,46 +120,41 @@ font-family: "Bodoni MT";
 
 
 /*  Mes competences*/
-.competences{
+.competences {
+
     background-color:                  #dcdcdc;
     margin-top: 190px;
     height: 500px;
 
 }
-.competences .prog{
+.all {
+    display: flex;
+    justify-content:center;
+    justify-content:space-around;
+    align-content:flex-end;
+    flex-direction:row;
+
+}
+.all .prog{
     width: 350px;
-    margin-left: 100px;
+
     background-color: white;
     height: 370px;
 }
-.competences .prog img
+.all .prog .program
 {    width: 350px;
     height: 200px;
+}
+.all .icons img
+{
+    width: 50px;
+    height: 50px;
+}
+.all .icons
+{ display: flex;
+    justify-content:space-around;
 }
 
-.competences .dev{
-    width: 350px;
-    margin-left: 500px;
-    background-color: white;
-    height: 370px;
-    margin-top: -370px;
-}
-.competences .dev img
-{    width: 350px;
-    height: 200px;
-}
-
-.competences .base{
-    width: 350px;
-    margin-left: 900px;
-    background-color: white;
-    height: 370px;
-    margin-top: -370px;
-}
-.competences .base img
-{    width: 350px;
-    height: 200px;
-}
 
 .competences h1
 {
@@ -165,20 +165,28 @@ font-family: "Bodoni MT";
 
 /* Projets academiques*/
 .projets {
+    margin-left: 270px;
     background-color: white;
-    height: 800px;
+    height: 1120px;
     width: 700px;
-    margin-left: 290px;
+    display: flex;
+
+    justify-content:space-between;
+    align-content:flex-end;
+    flex-direction:column;
 }
 
 .projets .pi
 {   margin-top: 20px;
    background-color:#e1c9a9;
     height: 250px;
+
+
 }
 .projets .pi img
 {
     height: 251px;
+    width: 347px;
 }
 .projets .pi h3
 {
@@ -203,6 +211,7 @@ font-family: Corbel;
 .about
 {
     margin-top: 60px;
+    width: 450px;
 }
 .about h1
 {
@@ -211,7 +220,7 @@ font-family: Corbel;
 }
 .about hr
 {
-    color: #27223e;
+
     margin-top: -10px;
     margin-left: 160px;
 }
@@ -224,9 +233,7 @@ font-family: Corbel;
 .about h3
 {
     margin-left: 160px;
-    font-family: Century;
-    color: #e1c9a9;
-    font-weight: bold;
+
 }
 
 .about p{
@@ -275,7 +282,7 @@ font-family: Corbel;
 }
 .formation hr
 {
-    margin-left: 590px;
+    margin-left: 300px;
     margin-top: -10px;
     color: #27223e;
     text-align: center;
@@ -295,7 +302,7 @@ font-family: Corbel;
 
 .formation .bac
 {
-    margin-left: 800px;
+    margin-left: 500px;
     margin-top: -70px;
     color: #27223e;
 }
@@ -361,10 +368,14 @@ font-family: Corbel;
     margin-top: -20px;
 
 }
-.certif .partie1
+.certif .parcours
 {
-    margin-left: 160px;
-    margin-top: 60px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-content:flex-end;
+    flex-direction:row;
 }
 .certif .partie1 img
 {
@@ -384,11 +395,7 @@ font-family: Corbel;
 }
 
 
-.certif .partie2
-{
-    margin-left: 700px;
-    margin-top: -923px;
-}
+
 .certif .partie2 img
 {
     width: 460px;
@@ -405,6 +412,8 @@ font-family: Corbel;
     font-family: Aldhabi;
     font-size: 22px;
 }
+
+/*contact*/
 .contact h1
 {
     color: #27223e;
@@ -513,4 +522,373 @@ footer .email p
     margin-top: -25px;
     margin-left: 500px;
     font-size: 10px;
+}
+
+@media screen and (max-width: 600px){
+    /* header */
+    body
+    {
+        width: 500px;
+    }
+    header
+    {
+        margin-left: -10px;
+    }
+    header .me h1
+    {
+
+        font-size: 30px;
+        padding-left: 120px;
+        padding-top: 130px;
+
+    }
+    header .me p
+    {
+
+        padding-left: 100px;
+        margin-top: -20px;
+
+    }
+
+
+    /*Description*/
+
+    .photoprofile{
+        height: 300px;
+
+       margin-left: 10px;
+
+    }
+
+    .description
+    {
+        margin-left: 200px;
+        margin-top: -350px;
+    }
+
+    .description p
+    {
+        color: #27223e;
+        font-family: "Bodoni MT";
+        font-size: 16px;
+        width: 250px;
+
+    }
+    .description a
+    {
+        color: #27223e;
+        border: 2px outset  #27223e;
+        font-family: "Bodoni MT";
+        text-decoration:none;
+        font-size: 20px;
+    }
+
+
+
+
+
+    /*  Mes competences*/
+    .competences {
+width: 500px;
+        background-color:                  #dcdcdc;
+        margin-top: 50px;
+        height: 500px;
+
+    }
+    .all {
+        width: 500px;
+        display: flex;
+
+        justify-content:space-between;
+
+
+    }
+
+    .all .prog{
+        width: 130px;
+
+
+        height: 370px;
+    }
+    .all .prog .program
+    {    width: 130px;
+        height: 200px;
+    }
+
+    .prog h2
+    {
+        font-size: 15px;
+    }
+    .all .icons img
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .all .icons
+    { display: flex;
+
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+
+
+    .competences h1
+    {
+
+        text-align: left;
+    }
+
+
+
+    footer
+    {
+width: 500px;
+
+    }
+
+
+    footer h5
+    {
+
+        margin-left: 190px;
+    }
+    footer .telephone p{
+
+        margin-left: 190px;
+
+    }
+
+    footer .email img
+    {
+
+        margin-left: 300px;
+
+    }
+    footer .email h5
+    {
+
+        margin-left: 300px;
+    }
+    footer .email p
+    {
+
+        margin-left: 300px;
+
+    }
+
+
+    /* Projets academiques*/
+    .projets {
+margin-left: -10px;
+
+        height: 1120px;
+        width: 500px;
+
+
+
+    }
+
+    .projets .pi
+    {
+
+        height: 250px;
+
+    width: 510px;
+
+    }
+    .projets .pi img
+    {
+        height: 251px;
+        width: 250px;
+    }
+    .projets .pi h3
+    {
+        margin-left: 250px;
+        margin-top: -240px;
+        color: #27223e;
+        font-family: Corbel;
+        font-size: 25px;
+    }
+    .projets .pi p
+    {   color: white;
+        margin-left: 250px;
+        margin-top: 40px;
+
+        font-family: Corbel;
+
+    }
+
+    /*certif*/
+
+    .certif hr {
+
+        margin-left: 200px;
+
+
+    }
+
+
+
+    /*contact*/
+    .contact h1
+    {
+        margin-left: 10px;
+    }
+    .contact hr
+    {
+
+
+        margin-left: 10px;
+    }
+    .contact .image
+    {
+        margin-left: 10px;
+    }
+
+    form
+
+    {  margin-left: 300px;
+
+    }
+    input[type=text],input[type=email],textarea {
+        width: 170px;
+
+    }
+    input[type=submit] {
+
+        margin-left: 80px;
+    }
+
+
+
+    .cont
+    {
+        margin-left: 10px;
+    }
+
+
+    /*about me*/
+
+    .about h1
+    {
+
+        margin-left: 150px
+    }
+    .about hr
+    {
+
+        margin-left: 150px;
+    }
+    .about .aboume
+    {
+        display: none;
+
+    }
+    .about h3
+    {
+        margin-left: 120px;
+     font-size: 13px;
+
+    }
+
+    .about p{
+
+        width: 400px;
+        margin-left: 10px;
+
+    }
+
+
+
+    .about .birthday
+    { margin-left: 150px;
+
+    }
+    .about .birthday h5
+    { margin-left: 30px;
+        margin-top: -30px;
+        font-size: 17px;
+
+    }
+    .about .birthday p
+    { margin-left: 161px;
+        margin-top: -45px;
+        font-size: 13px;
+
+    }
+
+
+
+    .formation
+    {
+
+        height: 180px;
+        margin-left: -10px;
+    }
+    .formation h1
+    {
+
+        text-align: left;
+    }
+    .formation hr
+    {
+
+        margin-top: -10px;
+       margin-left: 10px;
+    }
+    .formation .esprit
+    {
+        margin-left: 10px;
+
+        width: 160px;
+    }
+    .formation .esprit p
+    {   margin-top: -10px;
+
+    }
+
+    .formation .bac
+    {
+        margin-left: 350px;
+        margin-top: -100px;
+
+    }
+
+
+
+
+    .centreinter
+    {
+        margin-left: -10px;
+        margin-top: -22px;
+        height: 250px;
+    }
+    .centreinter h1
+    {margin-left: 10px;
+    }
+
+    .centreinter hr
+    {
+
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+
+
+    .centreinter .voyage
+    {
+        width: 200px;
+        margin-left: 300px;
+
+
+    }
+
+    .centreinter p
+    {
+        width: 250px;
+        margin-left: 10px;
+
+
+
+    }
 }
